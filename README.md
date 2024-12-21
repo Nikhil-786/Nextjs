@@ -36,3 +36,11 @@ How navigation works in Next.js.
 Link allows you to do client side navigation.
 when the Link code appears in the browers viewports nextjs automatically prefrecteches the code related to the link.
 when ever the user click on that link destination page is already loaded in the background which makes page transition in the background near instant.
+
+
+setting up database
+setted postgres database
+linked project to database
+confifured database and seeded the db.
+
+
