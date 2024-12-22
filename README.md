@@ -43,4 +43,21 @@ setted postgres database
 linked project to database
 confifured database and seeded the db.
 
+chapter 7
+Fetching data
+Learn about some approaches to fetching data: APIs, ORMs, SQL, etc.
+How Server Components can help you access back-end resources more securely.
+What network waterfalls are.
+How to implement parallel data fetching using a JavaScript Pattern.
+
+choosing how to fetch the data
+
+whate learned 
+
+If you're using 3rd party services that provide an API.
+If you're fetching data from the client, you want to have an API layer that runs on the server to avoid exposing your database secrets to the client.
+
+waterfall pattern means are after compeletion of previous request . means next data is being executed after previous request is being completed.
+
+to achieve parallel data fetching we usign javascript pattern such as promiseall or promisesettled but there might be posibilites that if one request is taking time other if may slow response time.
 
